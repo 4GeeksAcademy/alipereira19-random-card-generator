@@ -1,1 +1,54 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background: green;
+}
+
+#container {
+  height: 800px;
+  width: 800px;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+}
+
+#carta {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  background: white;
+  height: 500px;
+  width: 300px;
+  border-radius: 5%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#upper {
+  text-align: left;
+  font-size: 100px;
+  margin-left: 10px;
+}
+
+#lower {
+  text-align: left;
+  font-size: 100px;
+  transform: rotate(180deg);
+  margin-right: 10px;
+}
+
+#number {
+  text-align: center;
+  font-size: 80px;
+}
+
+#button {
+  margin-left: 40px;
+  width: 70px;
+  height: 70px;
+  margin-top: 30px;
+}
