@@ -48,7 +48,8 @@ body {
 
 #button {
   margin-left: 40px;
-  width: 70px;
+  width: 90px;
   height: 70px;
   margin-top: 30px;
+  font-size: small;
 }
